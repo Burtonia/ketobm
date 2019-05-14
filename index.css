@@ -1,0 +1,61 @@
+/* Begin Index CSS */
+/*
+    Color Palette:
+        {
+            AA Blue: #2e4272,
+            LT Blue: #7887ac,
+            MD Blue: #50618e,
+            DK Blue: #152856,
+            XX Blue: #061539
+        }
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Actor|Abel|Francois+One');
+
+h1,h2,h3,h4,h5,h6,button {
+  font-family: 'Francois One', sans-serif;
+}
+
+p,span,input,select,a,ul,li,
+.h1,.h2,.h3,.h4,.h5,.h6 {font-family: 'Abel', sans-serif;}
+
+a, button {cursor:pointer;}
+a button {color:#fff !important;}
+
+.hidden {visibility:hidden;}
+.centerize {margin: 0px auto; width: 100%; display: block;}
+.ctz-xs {max-width:562px;}
+.ctz-sm {max-width:768px;}
+.ctz-md {max-width:991px;}
+.ctz-lg {max-width:1200px;}
+.ctz-xl {max-width:1440px;}
+.fixed-menu {position: fixed; width: 100%; top: 0; border: 1px solid rgba(0,0,0,0.1);}
+
+.ketobm-button {
+  color:#fff;
+  font-weight:900;
+}
+
+.blue-aa {background-color:#2e4272}
+.blue-lt {background-color:#7887ac;}
+.blue-md {background-color:#50618e;}
+.blue-dk {background-color:#152856;}
+.blue-xx {background-color:#061539;}
+
+.blue-text-aa {color:#2e4272}
+.blue-text-lt {color:#7887ac;}
+.blue-text-md {color:#50618e;}
+.blue-text-dk {color:#152856;}
+.blue-text-xx {color:#061539;}
+
+.keto-grey {background-color:#e9ecef;}
+
+.lh-sm {line-height:1;}
+.lh-md {line-height:1.5;}
+.lh-lg {line-height:2;}
+
+.border-row {border: 1px solid rgba(0,0,0,0.1);}
+
+@media screen and (max-width:991px) {
+    #main-nav ul li {text-align:center;}
+}
